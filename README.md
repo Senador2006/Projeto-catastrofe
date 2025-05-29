@@ -46,22 +46,18 @@ Projeto desenvolvido para a disciplina de Sistemas Distribuídos da FIAP com o o
 1. Clone o repositório:
 git clone https://github.com/seu-usuario/sistema-catastrofes.git
 
-text
 
 2. Instale as dependências:
 pip install -r requirements.txt
 
-text
 
 3. Inicie o servidor:
 python run.py
 
-text
 
 4. Acesse no navegador:
 http://localhost:5000
 
-text
 
 ## 📁 Estrutura do Projeto
 sistema-catastrofes/
@@ -79,7 +75,6 @@ sistema-catastrofes/
 ├── requirements.txt # Dependências
 └── run.py # Ponto de entrada
 
-text
 
 ## 🔮 Futuras Melhoras
 - [ ] Integração com API de mapas
