@@ -85,7 +85,7 @@ projeto-catastrofe/
 - [ ] Autenticação por dois fatores
 
 ## 👥 Contribuidores
-| [<img src="https://avatars.githubusercontent.com/u/12345?v=4" width=100><br>Senador2006](https://github.com/Senador2006) |  |
+| https://github.com/Senador2006 | https://github.com/Dimeendes |  
 |-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 
 
