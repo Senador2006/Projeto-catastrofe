@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Cadastrar Usuário{% endblock %}
+{% block content %}
+<h2>Cadastrar Usuário</h2>
+<form method="post">
+    <div class="mb-3">
+        <label>Nome completo</label>
+        <input type="text" name="nome" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Documento</label>
+        <input type="text" name="documento" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>E-mail</label>
+        <input type="email" name="email" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Telefone</label>
+        <input type="text" name="telefone" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Localização (latitude, longitude)</label>
+        <input type="text" name="localizacao" class="form-control" placeholder="-23.5,-46.6" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+{% endblock %}

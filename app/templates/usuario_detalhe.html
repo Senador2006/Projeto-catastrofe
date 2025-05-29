@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Detalhes do Usuário{% endblock %}
+{% block content %}
+<h2>Detalhes do Usuário</h2>
+<ul class="list-group">
+    <li class="list-group-item"><strong>Nome:</strong> {{ usuario.nome }}</li>
+    <li class="list-group-item"><strong>Documento:</strong> {{ usuario.documento }}</li>
+    <li class="list-group-item"><strong>Email:</strong> {{ usuario.email }}</li>
+    <li class="list-group-item"><strong>Telefone:</strong> {{ usuario.telefone }}</li>
+    <li class="list-group-item"><strong>Localização:</strong> {{ usuario.localizacao[0] }}, {{ usuario.localizacao[1] }}</li>
+</ul>
+{% endblock %}

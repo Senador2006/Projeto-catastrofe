@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Novo Relato{% endblock %}
+{% block content %}
+<h2>Novo Relato de Catástrofe</h2>
+{% if erro %}
+<div class="alert alert-danger">{{ erro }}</div>
+{% endif %}
+<form method="post">
+    <div class="mb-3">
+        <label>Tipo da Catástrofe</label>
+        <select name="tipo" class="form-select" required>
+            <option value="enchente">Enchente</option>
+            <option value="incêndio">Incêndio</option>
+            <option value="deslizamento">Deslizamento</option>
+            <option value="outro">Outro</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label>Descrição</label>
+        <textarea name="descricao" class="form-control" required></textarea>
+    </div>
+    <div class="mb-3">
+        <label>Latitude</label>
+        <input type="text" name="coordenada_lat" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Longitude</label>
+        <input type="text" name="coordenada_lon" class="form-control" required>
+    </div>
+    <div class="mb-3">
+        <label>Documento do Relator</label>
+        <input type="text" name="relator_documento" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Cadastrar Relato</button>
+</form>
+{% endblock %}

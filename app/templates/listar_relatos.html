@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Relatos Cadastrados{% endblock %}
+{% block content %}
+<h2>Relatos Cadastrados</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Tipo</th>
+            <th>Descrição</th>
+            <th>Data/Hora</th>
+            <th>Coordenadas</th>
+            <th>Relator</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for relato in relatos %}
+        <tr>
+            <td>{{ relato.tipo }}</td>
+            <td>{{ relato.descricao }}</td>
+            <td>{{ relato.data_hora }}</td>
+            <td>{{ relato.coordenadas_lat }}, {{ relato.coordenadas_lon }}</td>
+            <td>{{ relato.relator.documento }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% if relatos|length == 0 %}
+<p>Nenhum relato cadastrado.</p>
+{% endif %}
+{% endblock %}
