@@ -70,7 +70,12 @@ sistema-catastrofes/
 │ ├── routes/ # Endpoints da API
 │ ├── services/ # Lógica de negócios
 │ └── templates/ # Interface web
-├── tests/ # Testes unitários
+│     ├── base.html
+│     ├── index.html
+│     ├── cadastro_relato.html
+│     ├── cadastro_usuario.html
+│     ├── listar_relatos.html
+│     └── usuario_detalhe.html
 ├── requirements.txt # Dependências
 └── run.py # Ponto de entrada
 
