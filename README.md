@@ -83,8 +83,7 @@ text
 - [ ] Autenticação por dois fatores
 
 ## 👥 Contribuidores
-| [<img src="https://avatars.githubusercontent.com/u/12345?v=4" width=100><br>Seu Nome](https://github.com/seu-usuario) | [<img src="https://avatars.githubusercontent.com/u/67890?v=4" width=100><br>Colega](https://github.com/colega) |
+| [<img src="https://avatars.githubusercontent.com/u/12345?v=4" width=100><br>Senador2006](https://github.com/Senador2006) |  |
 |-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 
-**Desenvolvido como projeto acadêmico - FIAP 2024**  
-[![Licença MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
