@@ -60,11 +60,11 @@ http://localhost:5000
 
 
 ## 📁 Estrutura do Projeto
-sistema-catastrofes/
+projeto-catastrofe/
 ├── app/
-│ ├── models/ # Modelos de banco de dados
-│ ├── routes/ # Endpoints da API
-│ ├── services/ # Lógica de negócios
+│ ├── models.py # Modelos de banco de dados
+│ ├── routes.py # Endpoints da API
+│ ├── services.py # Lógica de negócios
 │ └── templates/ # Interface web
 │     ├── base.html
 │     ├── index.html
@@ -72,6 +72,8 @@ sistema-catastrofes/
 │     ├── cadastro_usuario.html
 │     ├── listar_relatos.html
 │     └── usuario_detalhe.html
+├── instance/
+│   └── catastrofe.db
 ├── requirements.txt # Dependências
 └── run.py # Ponto de entrada
 
