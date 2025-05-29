@@ -1,6 +1,6 @@
 # Sistema de Prevenção e Alerta de Catástrofes Naturais
 
-![Badge em Desenvolvimento](https://img.shields.io/badge/Status-%20Completo-green)
+![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Completo-green)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Flask](https://img.shields.io/badge/Flask-2.0.1-lightgrey)
 
