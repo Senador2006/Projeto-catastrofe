@@ -44,3 +44,47 @@ Projeto desenvolvido para a disciplina de Sistemas Distribuídos da FIAP com o o
 ## ⚙️ Como Executar
 
 1. Clone o repositório:
+git clone https://github.com/seu-usuario/sistema-catastrofes.git
+
+text
+
+2. Instale as dependências:
+pip install -r requirements.txt
+
+text
+
+3. Inicie o servidor:
+python run.py
+
+text
+
+4. Acesse no navegador:
+http://localhost:5000
+
+text
+
+## 📁 Estrutura do Projeto
+sistema-catastrofes/
+├── app/
+│ ├── models/ # Modelos de banco de dados
+│ ├── routes/ # Endpoints da API
+│ ├── services/ # Lógica de negócios
+│ └── templates/ # Interface web
+├── tests/ # Testes unitários
+├── requirements.txt # Dependências
+└── run.py # Ponto de entrada
+
+text
+
+## 🔮 Futuras Melhoras
+- [ ] Integração com API de mapas
+- [ ] Sistema de notificações em tempo real
+- [ ] Dashboard analítico
+- [ ] Autenticação por dois fatores
+
+## 👥 Contribuidores
+| [<img src="https://avatars.githubusercontent.com/u/12345?v=4" width=100><br>Seu Nome](https://github.com/seu-usuario) | [<img src="https://avatars.githubusercontent.com/u/67890?v=4" width=100><br>Colega](https://github.com/colega) |
+|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+
+**Desenvolvido como projeto acadêmico - FIAP 2024**  
+[![Licença MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](https://opensource.org/licenses/MIT)
